@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: rgb(9, 138, 155);
+  }
+  header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 5vh;
+  }
+  header h2 {
+    padding: 10px 20px;
+  }
+  h2 {
+    font-size: 2rem;
+    margin: 20px 0;
+    color: whitesmoke;
+  }
+  .answer {
+    width: 100%
+  }
+  
+  .button, .answer {
+    margin: 10px 0;
+    padding: 12px 18px;
+    background-color: rgb(114, 61, 70);
+    border: none;
+    border-radius: 8px;
+    color: purple;
+    font-size: 20px;
+  }
+  .answer:active {
+    border: none;
+  }
